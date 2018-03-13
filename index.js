@@ -19,6 +19,7 @@ function currentLine(katzDeliLine) {
     for(var i = 0; i < katzDeliLine.length; i++){
        line = line + `${i+1}. ${katzDeliLine[i]}, `
     }
-    return line.slice(0,-1)
+    line = line.slice(0,-1)
+    return line
   }
 }
