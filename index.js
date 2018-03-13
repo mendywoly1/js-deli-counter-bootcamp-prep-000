@@ -25,4 +25,3 @@ function currentLine(katzDeliLine) {
     }
     return line
   }
-}
